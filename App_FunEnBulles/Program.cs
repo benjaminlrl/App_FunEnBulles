@@ -11,7 +11,7 @@ namespace App_FunEnBulles
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Acceuil());
+            Application.Run(new form_Acceuil());
         }
     }
 }

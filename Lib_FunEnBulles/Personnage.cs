@@ -133,15 +133,17 @@ namespace lib_FunEnBulles
             string? personnageImage = null, string? personnageNationalite = null, string? personnageTitre = null,
             string? personnageNomAnglais = null, string? personnageNomAllemand = null)
         {
+            _personnageNum = -1;
             _personnageNom = personnageNom;
             _personnageInspiration = personnageInspiration;
-            _personnageImage = personnageImage;
             _personnageSexe = personnageSexe;
+            _personnageImage = personnageImage;
             _personnageNationalite = personnageNationalite;
             _personnageTitre = personnageTitre;
             _personnageNomAnglais = personnageNomAnglais;
             _personnageNomAllemand = personnageNomAllemand;
         }
+
         /// <summary>
         /// Initialise une nouvelle instance de la classe Personnage
         /// Utilisé pour créer un objet Personnage à partir d'un enregistrement existant dans la base de données.
@@ -156,14 +158,14 @@ namespace lib_FunEnBulles
         /// <param name="personnageNomAnglais">Nom anglais</param>
         /// <param name="personnageNomAllemand">Nom allemand</param>
         public Personnage(int personnageNum, string personnageNom, string personnageInspiration, string personnageSexe,
-        string? personnageImage = null, string? personnageNationalite = null, string? personnageTitre = null,
-        string? personnageNomAnglais = null, string? personnageNomAllemand = null)
+            string? personnageImage = null, string? personnageNationalite = null, string? personnageTitre = null,
+            string? personnageNomAnglais = null, string? personnageNomAllemand = null)
         {
             _personnageNum = personnageNum;
             _personnageNom = personnageNom;
             _personnageInspiration = personnageInspiration;
-            _personnageImage = personnageImage;
             _personnageSexe = personnageSexe;
+            _personnageImage = personnageImage;
             _personnageNationalite = personnageNationalite;
             _personnageTitre = personnageTitre;
             _personnageNomAnglais = personnageNomAnglais;

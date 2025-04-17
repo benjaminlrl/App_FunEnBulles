@@ -1,0 +1,937 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="asterix_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="livre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\livre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_35.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obelodalix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\obelodalix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="namaspamus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\namaspamus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="briseradius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\briseradius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brutus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\brutus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cicatrix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\cicatrix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caius_obtus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\caius_obtus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_17.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marcus_cubitus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\marcus_cubitus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="claudius_cornedurus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\claudius_cornedurus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quatredeusix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\quatredeusix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jules_cesar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\jules_cesar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anglaigus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\anglaigus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hyapados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\hyapados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="claudius_nonpossumus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\claudius_nonpossumus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meagecanonix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\meagecanonix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gracchus_garovirus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\gracchus_garovirus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aplusbegalix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\aplusbegalix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diagnostix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\diagnostix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_341" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_34.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alambix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\alambix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_38.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tullius_franfelus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\tullius_franfelus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soupalognon_y_crouton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\soupalognon_y_crouton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boufiltre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\boufiltre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chorus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\chorus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="julius_epinedecactus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\julius_epinedecactus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pasdfric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\pasdfric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="casseurdebric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\casseurdebric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rosaepine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\rosaepine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yenapus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\yenapus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\asterix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pourkoipah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\pourkoipah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tragicomix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\tragicomix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="manneken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\manneken.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zerozerosix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\zerozerosix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aniline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\aniline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="claudius_malosinus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\claudius_malosinus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adrenaline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\adrenaline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gracchus_pleindastus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\gracchus_pleindastus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cekankondine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\cekankondine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_29.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lentix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\lentix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="passemoilcric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\passemoilcric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_36.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eponine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\eponine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flavia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\flavia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plutotqueprevus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\plutotqueprevus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonusmalus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\bonusmalus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pardessus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\pardessus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caius_marcheopus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\caius_marcheopus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lachelechampignon_y_causon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\lachelechampignon_y_causon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="claudius_metrobus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\claudius_metrobus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ballondebaudrus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\ballondebaudrus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ocatarinetabellatchitchix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\ocatarinetabellatchitchix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="begonia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\begonia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_371" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_37.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="berlix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\berlix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ielosubmarine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\ielosubmarine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="changeledix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\changeledix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="encorutilfaluquejelesus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\encorutilfaluquejelesus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="terrinconus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\terrinconus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fanzine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\fanzine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="septantesix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\septantesix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_351" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_35.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ginfis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\ginfis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caliguliminix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\caliguliminix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beaufix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\beaufix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="segregationnix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\segregationnix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amonbofis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\amonbofis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\erix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fercorus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\fercorus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pepe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\pepe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lupus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\lupus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_291" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_29.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abraracourcix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\abraracourcix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loupe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\loupe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_26.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plexus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\plexus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coriza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\coriza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonus_promoplus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\bonus_promoplus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="electric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\electric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teleferic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\teleferic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marcus_sacapus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\marcus_sacapus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_061" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caius_soutienmordicus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\caius_soutienmordicus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coudetric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\coudetric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="motus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\motus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="claudius_quintilius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\claudius_quintilius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coronavirus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\coronavirus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goudurix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\goudurix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chipolatas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\chipolatas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="absolumentexclus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\absolumentexclus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="faitexcus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\faitexcus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lucius_coquelus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\lucius_coquelus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="julius_humerus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\julius_humerus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gouteur_de_cleopatre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\gouteur_de_cleopatre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_37.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mac_oloch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\mac_oloch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caligula_alavacomgetepus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\caligula_alavacomgetepus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="numerobis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\numerobis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="radius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\radius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catedralgotix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\catedralgotix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="latraviata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\latraviata.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quelquilfus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\quelquilfus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rictus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\rictus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\comix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="perclus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\perclus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rahazade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\rahazade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_401" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_40.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gracchus_nenjetepus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\gracchus_nenjetepus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="astronomix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\astronomix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keskonrix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\keskonrix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caligula_minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\caligula_minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="odalix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\odalix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_19.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stenograf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\stenograf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dactilograf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\dactilograf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="choleramorbus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\choleramorbus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_171" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_17.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tullius_octopus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\tullius_octopus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_25.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cleopatre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\cleopatre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cetautotmatix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\cetautotmatix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gracchus_cetinconcensus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\gracchus_cetinconcensus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacotealargus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\pacotealargus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_361" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_36.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="satiric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\satiric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_301" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_30.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_34.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="histeric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\histeric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="savancosinus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\savancosinus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pamplemus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\pamplemus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caius_joligibus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\caius_joligibus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="liric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\liric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_32.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloridiric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\cloridiric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_391" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_39.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loupe2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\loupe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caius_bonus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\caius_bonus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_33.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_18.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sciencinfus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\sciencinfus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kerosen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\kerosen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gelatine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\gelatine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="praline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\praline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lactus_bifidus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\lactus_bifidus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obelix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\obelix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_18.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kicah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\kicah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moralelastix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\moralelastix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theoric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\theoric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoodvinsen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\zoodvinsen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="batdaf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\batdaf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amerix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\amerix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_261" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_26.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avoranfix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\avoranfix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prefix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\prefix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_30.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barometrix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\barometrix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_31.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="epidemais" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\epidemais.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caius_roideprus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\caius_roideprus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pronostix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\pronostix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="petitlarus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\petitlarus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="faimoiducuscus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\faimoiducuscus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jolitorax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\jolitorax.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiwoalah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\kiwoalah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="acidenitrix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\acidenitrix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_19.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tournevis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\tournevis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loupe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\loupe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mecetautomatix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\mecetautomatix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_39.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\baba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="olaf_grossebaf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\olaf_grossebaf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zurix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\zurix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="falbala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\falbala.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biscornus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\biscornus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hotelterminus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\hotelterminus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obsen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\obsen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zebigbos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\zebigbos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amnesix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\amnesix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_40.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suelburnus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\suelburnus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guilus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\guilus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbe_rouge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\barbe_rouge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="idefix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\idefix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="triple_patte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\triple_patte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maelsen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\maelsen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_071" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quintilius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\quintilius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="langelus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\langelus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gueusealambix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\gueusealambix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tumeheris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\tumeheris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_25.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_081" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spartakis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\spartakis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="julius_pompilius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\julius_pompilius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gracchus_sextilius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\gracchus_sextilius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="milexcus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\milexcus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="periferic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\periferic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agecanonix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\agecanonix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="camomilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\camomilla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nenpeuplus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\nenpeuplus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="homeopatix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\homeopatix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonemine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\bonemine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_271" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_27.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tikedbus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\tikedbus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cesar_labeldecadix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\cesar_labeldecadix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maminovna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\maminovna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plaintcontrix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\plaintcontrix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assurancetourix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\assurancetourix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tullius_detritus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\tullius_detritus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lucius_fleurdelotus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\lucius_fleurdelotus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caius_aerobus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\caius_aerobus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doublepolemix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\doublepolemix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cetyounix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\cetyounix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="neuillisursen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\neuillisursen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="montladsus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\montladsus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archeopterix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\archeopterix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tournedix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\tournedix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zigepus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\zigepus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="courdetenis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\courdetenis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ordralfabetix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\ordralfabetix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maestria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\maestria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caius_eucaliptus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\caius_eucaliptus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prolix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\prolix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_381" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_38.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\asterix_albums\asterix_09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orthopedix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\orthopedix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="olibrius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\olibrius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterix_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\asterix_albums\asterix_27.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caius_saugrenus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\caius_saugrenus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="misenplis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\misenplis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="panomarix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\Images_asterix\panomarix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parametre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Ressources\parametre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

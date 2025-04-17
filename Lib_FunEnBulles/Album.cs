@@ -99,6 +99,27 @@ namespace lib_FunEnBulles
             _albumEdition = albumEdition;
             _albumImage = albumImage;
         }
+        /// <summary>
+        /// Initialise une nouvelle instance de Album
+        /// Un Album dispose d'un numéro, d'un Isbn, d'un titre,
+        /// d'une année d'apparition, d'une édition
+        /// et d'une image
+        /// </summary>
+        /// <param name="albumNum">Numéro de l'album</param>
+        /// <param name="albumIsbn">Isbn de l'album</param>
+        /// <param name="albumTitre">Titre de l'album</param>
+        /// <param name="albumAnnee">Année de parution de l'album</param>
+        /// <param name="albumEdition">Edition de l'album</param>
+        /// <param name="albumImage">Image de l'album</param>
+        public Album( string albumIsbn, string albumTitre, int albumAnnee, string albumEdition, string albumImage)
+        {
+            _albumNum = -1;
+            _albumIsbn = albumIsbn;
+            _albumTitre = albumTitre;
+            _albumAnnee = albumAnnee;
+            _albumEdition = albumEdition;
+            _albumImage = albumImage;
+        }
         #endregion
     }
 }
