@@ -64,31 +64,31 @@ Utilise la fonction de recherche pour filtrer les personnages selon différents 
 
 ## 📸 Captures d'écran
 ### Acceuil
-![Acceuil](capturesdecran/acceuil.png)
+![Acceuil](image/acceuil.png)
 
 ### Recherche d'album
-![recherche d'album](capturesdecran/rechercheAlbum.png)
+![recherche d'album](image/rechercheAlbum.png)
 
 ### Fiche détaillé de l'album sélectionné
-![Fiche détaillé de l'album](capturesdecran/detailficheAlbum.png)
+![Fiche détaillé de l'album](image/detailficheAlbum.png)
 
 ### Recherche de personnages
-![Recherche de personnage](capturesdecran/recherchePersonnage.png)
+![Recherche de personnage](image/recherchePersonnage.png)
 
 ###  Fiche détaillé du personnage sélectionné
-![Fiche détaillé du personnage sélectionné](capturesdecran/detailfichePersonnage.png)
+![Fiche détaillé du personnage sélectionné](image/detailfichePersonnage.png)
 
 ### Panneau de controle
-![Panneau de controle](capturesdecran/panneaudecontrole.png)
+![Panneau de controle](image/panneaudecontrole.png)
 
 ### Panneau de controle des personnages
-![Panneau de controle des personnages](capturesdecran/personnageCRUD.png)
+![Panneau de controle des personnages](image/personnageCRUD.png)
 
 ### Panneau de controle des albums
-![Panneau de controle des personnages](capturesdecran/AlbumCRUD.png)
+![Panneau de controle des personnages](image/AlbumCRUD.png)
 
 ### Panneau de controle des personnages présent dans les albums
-![Panneau de controle des personnages présent dans les albums](capturesdecran/perosnnageAlbumCRUD.png)
+![Panneau de controle des personnages présent dans les albums](image/perosnnageAlbumCRUD.png)
 
 ## 📥 Télécharger l'application
 La première version de l'application Astérix est maintenant disponible en téléchargement :
