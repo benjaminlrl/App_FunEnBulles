@@ -56,6 +56,7 @@ namespace App_FunEnBulles
                     bddFunEnBullePersonnageCRUD.SupprimerTable();
                     bddFunEnBulleAlbumCRUD.SupprimerTable();
                     bddFunEnBullePerosnnageAlbumCRUD.SupprimerTable();
+                    RecupDataBase();
                     MessageBox.Show(
                         "La base de données a bien été réinitialisée de l'encyclopédie.",
                         "Réinitialisation réussie",
