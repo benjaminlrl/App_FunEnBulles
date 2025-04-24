@@ -64,31 +64,31 @@ Utilise la fonction de recherche pour filtrer les personnages selon différents 
 
 ## 📸 Captures d'écran
 ### Acceuil
-![Acceuil](images/capturesdecran/acceuil.png)
+![Acceuil](image/acceuil.png)
 
 ### Recherche d'album
-![recherche d'album](images/capturesdecran/rechercheAlbum.png)
+![recherche d'album](image/rechercheAlbum.png)
 
 ### Fiche détaillé de l'album sélectionné
-![Fiche détaillé de l'album](images/capturesdecran/detailficheAlbum.png)
+![Fiche détaillé de l'album](image/detailficheAlbum.png)
 
 ### Recherche de personnages
-![Recherche de personnage](images/capturesdecran/recherchePersonnage.png)
+![Recherche de personnage](image/recherchePersonnage.png)
 
 ###  Fiche détaillé du personnage sélectionné
-![Fiche détaillé du personnage sélectionné](images/capturesdecran/detailfichePersonnage.png)
+![Fiche détaillé du personnage sélectionné](image/detailfichePersonnage.png)
 
 ### Panneau de controle
-![Panneau de controle](images/capturesdecran/panneaudecontrole.png)
+![Panneau de controle](image/panneaudecontrole.png)
 
 ### Panneau de controle des personnages
-![Panneau de controle des personnages](images/capturesdecran/personnageCRUD.png)
+![Panneau de controle des personnages](image/personnageCRUD.png)
 
 ### Panneau de controle des albums
-![Panneau de controle des personnages](images/capturesdecran/AlbumCRUD.png)
+![Panneau de controle des personnages](image/AlbumCRUD.png)
 
 ### Panneau de controle des personnages présent dans les albums
-![Panneau de controle des personnages présent dans les albums](images/capturesdecran/perosnnageAlbumCRUD.png)
+![Panneau de controle des personnages présent dans les albums](image/perosnnageAlbumCRUD.png)
 
 ## 🤝 Contribuer
 Les contributions sont les bienvenues ! N'hésite pas à forker le projet et à proposer des améliorations via des pull requests.
