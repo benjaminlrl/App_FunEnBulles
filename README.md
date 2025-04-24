@@ -1,8 +1,8 @@
 ## Version
 v1.0.0
 
-# 🎨 App Fun En Bulles
-App Fun En Bulles est une application Windows Forms développée en C# permettant de gérer et d'explorer des albums de bandes dessinées ainsi que leurs personnages associés. Elle offre une interface conviviale pour visualiser les détails des albums et des personnages, avec des images intégrées et des fonctionnalités de recherche.
+# 🎨 L'encyclopédie d'Astérix
+L'encyclopédie d'Astérix est une application Windows Forms développée en C# permettant de gérer et d'explorer des albums de bandes dessinées ainsi que leurs personnages associés. Elle offre une interface conviviale pour visualiser les détails des albums et des personnages, avec des images intégrées et des fonctionnalités de recherche.
 
 ## 🧰 Fonctionnalités
 Affichage des albums : Liste des albums disponibles avec leurs informations détaillées.
