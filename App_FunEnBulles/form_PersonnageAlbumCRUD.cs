@@ -56,6 +56,7 @@ namespace App_FunEnBulles
             labelNationalite.Text = "Nationalité : " + personnage.PersonnageNationalite.ToString();
             labelSexe.Text = "Sexe : " + personnage.PersonnageSexe.ToString();
             labelinspiration.Text = "Inspiration : " + personnage.PersonnageInspiration.ToString();
+            labelTitrePersonnage.Text = "Titre : " + personnage.PersonnageTitre.ToString();
         }
 
         private void AfficherFicheAlbum(Album Album)

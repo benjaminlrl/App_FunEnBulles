@@ -216,9 +216,10 @@
             // labelTitrePersonnage
             // 
             labelTitrePersonnage.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            labelTitrePersonnage.AutoEllipsis = true;
             labelTitrePersonnage.AutoSize = true;
             labelTitrePersonnage.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold);
-            labelTitrePersonnage.Location = new Point(859, 195);
+            labelTitrePersonnage.Location = new Point(859, 230);
             labelTitrePersonnage.Name = "labelTitrePersonnage";
             labelTitrePersonnage.Size = new Size(105, 35);
             labelTitrePersonnage.TabIndex = 117;
@@ -262,7 +263,7 @@
             labelNationalite.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelNationalite.AutoSize = true;
             labelNationalite.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold);
-            labelNationalite.Location = new Point(859, 230);
+            labelNationalite.Location = new Point(859, 195);
             labelNationalite.Name = "labelNationalite";
             labelNationalite.Size = new Size(173, 35);
             labelNationalite.TabIndex = 119;
