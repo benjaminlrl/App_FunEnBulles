@@ -92,11 +92,11 @@
             buttonExit.BackColor = Color.DarkRed;
             buttonExit.Font = new Font("Comic Sans MS", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonExit.ForeColor = Color.White;
-            buttonExit.Location = new Point(1110, 641);
+            buttonExit.Location = new Point(1096, 641);
             buttonExit.Name = "buttonExit";
-            buttonExit.Size = new Size(119, 59);
+            buttonExit.Size = new Size(133, 59);
             buttonExit.TabIndex = 6;
-            buttonExit.Text = "Exit";
+            buttonExit.Text = "Quitter";
             buttonExit.UseVisualStyleBackColor = false;
             buttonExit.Click += buttonExit_Click;
             // 
