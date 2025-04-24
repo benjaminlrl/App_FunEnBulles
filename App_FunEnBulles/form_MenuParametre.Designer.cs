@@ -32,10 +32,12 @@
             buttonPersonnage = new Button();
             buttonAlbum = new Button();
             buttonFermer = new Button();
+            buttonReinitialiserBdd = new Button();
             SuspendLayout();
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Font = new Font("Comic Sans MS", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(93, 111);
@@ -47,7 +49,7 @@
             // 
             // buttonPersonnage
             // 
-            buttonPersonnage.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            buttonPersonnage.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             buttonPersonnage.BackColor = Color.Gold;
             buttonPersonnage.Font = new Font("Comic Sans MS", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonPersonnage.Location = new Point(63, 187);
@@ -60,7 +62,7 @@
             // 
             // buttonAlbum
             // 
-            buttonAlbum.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            buttonAlbum.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             buttonAlbum.BackColor = Color.DarkRed;
             buttonAlbum.Font = new Font("Comic Sans MS", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonAlbum.ForeColor = Color.White;
@@ -70,7 +72,7 @@
             buttonAlbum.TabIndex = 2;
             buttonAlbum.Text = "Ajouter modifier supprimer un album";
             buttonAlbum.UseVisualStyleBackColor = false;
-            buttonAlbum.Click += button1_Click;
+            buttonAlbum.Click += buttonAlbum_Click;
             // 
             // buttonFermer
             // 
@@ -79,15 +81,30 @@
             buttonFermer.Name = "buttonFermer";
             buttonFermer.Size = new Size(133, 59);
             buttonFermer.TabIndex = 31;
-            buttonFermer.Text = "Fermer";
+            buttonFermer.Text = "Retour";
             buttonFermer.UseVisualStyleBackColor = false;
             buttonFermer.Click += buttonFermer_Click;
+            // 
+            // buttonReinitialiserBdd
+            // 
+            buttonReinitialiserBdd.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            buttonReinitialiserBdd.BackColor = Color.Orange;
+            buttonReinitialiserBdd.Font = new Font("Comic Sans MS", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonReinitialiserBdd.ForeColor = Color.Black;
+            buttonReinitialiserBdd.Location = new Point(63, 521);
+            buttonReinitialiserBdd.Name = "buttonReinitialiserBdd";
+            buttonReinitialiserBdd.Size = new Size(426, 114);
+            buttonReinitialiserBdd.TabIndex = 32;
+            buttonReinitialiserBdd.Text = "Réinitialiser la base de donnée par défaut";
+            buttonReinitialiserBdd.UseVisualStyleBackColor = false;
+            buttonReinitialiserBdd.Click += buttonReinitialiserBdd_Click_1;
             // 
             // form_MenuParametre
             // 
             AutoScaleDimensions = new SizeF(17F, 39F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(562, 759);
+            Controls.Add(buttonReinitialiserBdd);
             Controls.Add(buttonFermer);
             Controls.Add(buttonAlbum);
             Controls.Add(buttonPersonnage);
@@ -96,7 +113,7 @@
             Margin = new Padding(5);
             Name = "form_MenuParametre";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "form_MenuParametre";
+            Text = "Console d'administration";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -107,5 +124,6 @@
         private Button buttonPersonnage;
         private Button buttonAlbum;
         private Button buttonFermer;
+        private Button buttonReinitialiserBdd;
     }
 }

@@ -112,20 +112,46 @@ namespace App_FunEnBulles
         }
         private void dataGridViewAlbums_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
-            // Permet le défilement avec les flèches, sans déplacer la sélection si nécessaire
-            if (e.KeyCode == Keys.Up || e.KeyCode == Keys.Down || e.KeyCode == Keys.Left || e.KeyCode == Keys.Right)
+            // Permet la navigation uniquement entre les lignes sans changer de colonne (flèches haut/bas)
+            if (e.KeyCode == Keys.Up || e.KeyCode == Keys.Down)
             {
-                e.IsInputKey = true; // Cela indique que l'événement de touche doit être traité comme un événement de mouvement de ligne ou de colonne.
+                // Cela empêche que la touche soit consommée autrement par le DataGridView.
+                e.IsInputKey = true;
+            }
+
+            // Empêche la navigation avec la touche Tab (entre les colonnes), mais permet la navigation entre les lignes
+            if (e.KeyCode == Keys.Tab)
+            {
+                e.IsInputKey = true; // Cela évite le changement de colonne
+            }
+
+            // Si on appuie sur Enter, on déclenche un clic sur la cellule actuellement sélectionnée
+            if (e.KeyCode == Keys.Enter)
+            {
+                var currentRow = dataGridViewAlbums.CurrentRow;
+
+                // Si une cellule est sélectionnée
+                if (currentRow != null)
+                {
+                    var currentCell = dataGridViewAlbums.CurrentCell;
+
+                    // Simuler un clic sur la cellule en déclenchant l'événement CellClick
+                    dataGridViewAlbums_CellClick(dataGridViewAlbums, new DataGridViewCellEventArgs(currentCell.ColumnIndex, currentCell.RowIndex));
+                }
             }
         }
 
-        private void dataGridViewAlbums_PreviewKeyDown_1(object sender, PreviewKeyDownEventArgs e)
+        private void buttonRechercheAleatoireAlbum_Click(object sender, EventArgs e)
         {
-            // Permet le défilement avec les flèches, sans déplacer la sélection si nécessaire
-            if (e.KeyCode == Keys.Up || e.KeyCode == Keys.Down || e.KeyCode == Keys.Left || e.KeyCode == Keys.Right)
-            {
-                e.IsInputKey = true; // Cela indique que l'événement de touche doit être traité comme un événement de mouvement de ligne ou de colonne.
-            }
+            List<Album> listeAlbums = bddFunEnBulles.ListerAlbums("");
+            Album albumAleatoire = bddFunEnBulles.AlbumAleatoire(listeAlbums);
+            form_FicheAlbum ficheAlbum = new form_FicheAlbum(albumAleatoire);
+            ficheAlbum.Show();
+        }
+
+        private void form_RechercheAlbum_Load(object sender, EventArgs e)
+        {
+            dataGridViewAlbums.ClearSelection();
         }
     }
 }

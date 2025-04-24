@@ -39,7 +39,7 @@
             // 
             // textBoxRecherche
             // 
-            textBoxRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBoxRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textBoxRecherche.BorderStyle = BorderStyle.FixedSingle;
             textBoxRecherche.Location = new Point(832, 197);
             textBoxRecherche.Margin = new Padding(5);
@@ -63,6 +63,7 @@
             dataGridViewPersonnages.Name = "dataGridViewPersonnages";
             dataGridViewPersonnages.ReadOnly = true;
             dataGridViewPersonnages.RowHeadersWidth = 62;
+            dataGridViewPersonnages.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridViewPersonnages.Size = new Size(1517, 484);
             dataGridViewPersonnages.TabIndex = 2;
             dataGridViewPersonnages.CellContentClick += dataGridViewPersonnages_CellContentClick;
@@ -70,7 +71,7 @@
             // 
             // label1
             // 
-            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Font = new Font("Comic Sans MS", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(37, 191);
@@ -79,7 +80,6 @@
             label1.Size = new Size(785, 50);
             label1.TabIndex = 3;
             label1.Text = "Rechercher dans l'encyclopédie d'Astérix :";
-            label1.Click += label1_Click;
             // 
             // buttonMenu
             // 
@@ -98,16 +98,17 @@
             buttonExit.BackColor = Color.DarkRed;
             buttonExit.Font = new Font("Comic Sans MS", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonExit.ForeColor = Color.White;
-            buttonExit.Location = new Point(1357, 28);
+            buttonExit.Location = new Point(1343, 28);
             buttonExit.Name = "buttonExit";
-            buttonExit.Size = new Size(119, 59);
+            buttonExit.Size = new Size(133, 59);
             buttonExit.TabIndex = 5;
-            buttonExit.Text = "Exit";
+            buttonExit.Text = "Quitter";
             buttonExit.UseVisualStyleBackColor = false;
             buttonExit.Click += buttonExit_Click;
             // 
             // buttonRechercheAleatoirePersonnage
             // 
+            buttonRechercheAleatoirePersonnage.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             buttonRechercheAleatoirePersonnage.BackColor = Color.Gold;
             buttonRechercheAleatoirePersonnage.Font = new Font("Comic Sans MS", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonRechercheAleatoirePersonnage.Location = new Point(425, 285);
@@ -133,7 +134,8 @@
             Margin = new Padding(5);
             Name = "form_RecherchePersonnage";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "e";
+            Text = "Encyclopédie des Personnages";
+            Load += form_RecherchePersonnage_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridViewPersonnages).EndInit();
             ResumeLayout(false);
             PerformLayout();

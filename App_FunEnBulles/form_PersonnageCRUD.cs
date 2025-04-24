@@ -31,7 +31,7 @@ namespace App_FunEnBulles
 
             if (dataGridViewPersonnages.Columns.Contains("PersonnageTitre"))
                 dataGridViewPersonnages.Columns["PersonnageTitre"].Visible = false;
-                dataGridViewPersonnages.Columns["PersonnageImage"].Visible = false;
+            dataGridViewPersonnages.Columns["PersonnageImage"].Visible = false;
 
             dataGridViewPersonnages.Columns["PersonnageNum"].DisplayIndex = 0;
             dataGridViewPersonnages.Columns["PersonnageNom"].DisplayIndex = 1;
@@ -289,6 +289,11 @@ namespace App_FunEnBulles
         private void buttonViderChamps_Click(object sender, EventArgs e)
         {
             ClearInput();
+        }
+
+        private void form_PersonnageCRUD_Load(object sender, EventArgs e)
+        {
+            dataGridViewPersonnages.ClearSelection();
         }
     }
 }

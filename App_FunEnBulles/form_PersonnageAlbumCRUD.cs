@@ -218,5 +218,10 @@ namespace App_FunEnBulles
             recherchePersonnageAjout.FormClosed += (s, args) => this.Close();
             recherchePersonnageAjout.Show();
         }
+
+        private void form_PersonnageAlbumCRUD_Load(object sender, EventArgs e)
+        {
+            dataGridViewPersonnages.ClearSelection();
+        }
     }
 }

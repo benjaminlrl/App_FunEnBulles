@@ -49,6 +49,7 @@
             dataGridViewAlbums = new DataGridView();
             buttonViderChamps = new Button();
             buttonAlbum = new Button();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBoxImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewAlbums).BeginInit();
             SuspendLayout();
@@ -79,7 +80,7 @@
             // 
             // label6
             // 
-            label6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label6.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label6.AutoSize = true;
             label6.Location = new Point(604, 351);
             label6.Margin = new Padding(6, 0, 6, 0);
@@ -90,7 +91,7 @@
             // 
             // textBoxImage
             // 
-            textBoxImage.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBoxImage.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             textBoxImage.Location = new Point(733, 348);
             textBoxImage.Margin = new Padding(6, 5, 6, 5);
             textBoxImage.Name = "textBoxImage";
@@ -99,7 +100,6 @@
             // 
             // label5
             // 
-            label5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label5.AutoSize = true;
             label5.Location = new Point(29, 311);
             label5.Margin = new Padding(6, 0, 6, 0);
@@ -110,7 +110,6 @@
             // 
             // textBoxAnnee
             // 
-            textBoxAnnee.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             textBoxAnnee.Location = new Point(180, 308);
             textBoxAnnee.Margin = new Padding(6, 5, 6, 5);
             textBoxAnnee.Name = "textBoxAnnee";
@@ -119,7 +118,6 @@
             // 
             // label1
             // 
-            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Location = new Point(29, 168);
             label1.Margin = new Padding(6, 0, 6, 0);
@@ -130,7 +128,6 @@
             // 
             // textBoxIsbn
             // 
-            textBoxIsbn.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             textBoxIsbn.Location = new Point(180, 160);
             textBoxIsbn.Margin = new Padding(6, 5, 6, 5);
             textBoxIsbn.Name = "textBoxIsbn";
@@ -139,7 +136,7 @@
             // 
             // pictureBoxImage
             // 
-            pictureBoxImage.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pictureBoxImage.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBoxImage.BackgroundImageLayout = ImageLayout.Center;
             pictureBoxImage.Location = new Point(671, 12);
             pictureBoxImage.Name = "pictureBoxImage";
@@ -149,7 +146,7 @@
             // 
             // textBoxRecherche
             // 
-            textBoxRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBoxRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             textBoxRecherche.Location = new Point(809, 454);
             textBoxRecherche.Margin = new Padding(6, 5, 6, 5);
             textBoxRecherche.Name = "textBoxRecherche";
@@ -159,7 +156,6 @@
             // 
             // labelNomAnglais
             // 
-            labelNomAnglais.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelNomAnglais.AutoSize = true;
             labelNomAnglais.Location = new Point(29, 235);
             labelNomAnglais.Margin = new Padding(6, 0, 6, 0);
@@ -170,7 +166,6 @@
             // 
             // textBoxEdition
             // 
-            textBoxEdition.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             textBoxEdition.Location = new Point(180, 232);
             textBoxEdition.Margin = new Padding(6, 5, 6, 5);
             textBoxEdition.Name = "textBoxEdition";
@@ -179,7 +174,6 @@
             // 
             // labelTitre
             // 
-            labelTitre.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelTitre.AutoSize = true;
             labelTitre.Location = new Point(29, 94);
             labelTitre.Margin = new Padding(6, 0, 6, 0);
@@ -190,7 +184,7 @@
             // 
             // labelRecherche
             // 
-            labelRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            labelRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelRecherche.AutoSize = true;
             labelRecherche.Location = new Point(621, 457);
             labelRecherche.Margin = new Padding(6, 0, 6, 0);
@@ -201,7 +195,6 @@
             // 
             // textBoxTitre
             // 
-            textBoxTitre.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             textBoxTitre.Location = new Point(155, 86);
             textBoxTitre.Margin = new Padding(6, 5, 6, 5);
             textBoxTitre.Name = "textBoxTitre";
@@ -210,20 +203,19 @@
             // 
             // buttonAjouter
             // 
-            buttonAjouter.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             buttonAjouter.AutoSize = true;
+            buttonAjouter.BackColor = Color.Green;
             buttonAjouter.Location = new Point(15, 446);
             buttonAjouter.Margin = new Padding(6, 5, 6, 5);
             buttonAjouter.Name = "buttonAjouter";
             buttonAjouter.Size = new Size(176, 49);
             buttonAjouter.TabIndex = 57;
             buttonAjouter.Text = "Ajouter";
-            buttonAjouter.UseVisualStyleBackColor = true;
+            buttonAjouter.UseVisualStyleBackColor = false;
             buttonAjouter.Click += buttonAjouter_Click;
             // 
             // buttonModifier
             // 
-            buttonModifier.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             buttonModifier.AutoSize = true;
             buttonModifier.Location = new Point(217, 446);
             buttonModifier.Margin = new Padding(6, 5, 6, 5);
@@ -236,15 +228,16 @@
             // 
             // buttonSupprimer
             // 
-            buttonSupprimer.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             buttonSupprimer.AutoSize = true;
+            buttonSupprimer.BackColor = Color.Red;
+            buttonSupprimer.ForeColor = Color.White;
             buttonSupprimer.Location = new Point(419, 447);
             buttonSupprimer.Margin = new Padding(6, 5, 6, 5);
             buttonSupprimer.Name = "buttonSupprimer";
             buttonSupprimer.Size = new Size(176, 49);
             buttonSupprimer.TabIndex = 59;
             buttonSupprimer.Text = "Supprimer";
-            buttonSupprimer.UseVisualStyleBackColor = true;
+            buttonSupprimer.UseVisualStyleBackColor = false;
             buttonSupprimer.Click += buttonSupprimer_Click;
             // 
             // dataGridViewAlbums
@@ -258,16 +251,17 @@
             dataGridViewAlbums.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewAlbums.Location = new Point(0, 508);
             dataGridViewAlbums.Margin = new Padding(6, 5, 6, 5);
+            dataGridViewAlbums.MultiSelect = false;
             dataGridViewAlbums.Name = "dataGridViewAlbums";
             dataGridViewAlbums.ReadOnly = true;
             dataGridViewAlbums.RowHeadersWidth = 62;
+            dataGridViewAlbums.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridViewAlbums.Size = new Size(1273, 271);
             dataGridViewAlbums.TabIndex = 52;
             dataGridViewAlbums.CellClick += dataGridViewAlbums_CellClick;
             // 
             // buttonViderChamps
             // 
-            buttonViderChamps.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             buttonViderChamps.AutoSize = true;
             buttonViderChamps.Location = new Point(180, 388);
             buttonViderChamps.Margin = new Padding(6, 5, 6, 5);
@@ -280,7 +274,7 @@
             // 
             // buttonAlbum
             // 
-            buttonAlbum.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            buttonAlbum.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonAlbum.BackColor = Color.DarkRed;
             buttonAlbum.Font = new Font("Comic Sans MS", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonAlbum.ForeColor = Color.White;
@@ -292,11 +286,22 @@
             buttonAlbum.UseVisualStyleBackColor = false;
             buttonAlbum.Click += buttonAlbum_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Comic Sans MS", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(155, 53);
+            label2.Name = "label2";
+            label2.Size = new Size(187, 28);
+            label2.TabIndex = 80;
+            label2.Text = "*champ obligatoire";
+            // 
             // form_AlbumCRUD
             // 
             AutoScaleDimensions = new SizeF(17F, 39F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1272, 780);
+            Controls.Add(label2);
             Controls.Add(buttonAlbum);
             Controls.Add(buttonViderChamps);
             Controls.Add(buttonQuitter);
@@ -322,7 +327,8 @@
             Margin = new Padding(5);
             Name = "form_AlbumCRUD";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "form_AlbumCRUD";
+            Text = "Console d'aministration des Albums";
+            Load += form_AlbumCRUD_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoxImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewAlbums).EndInit();
             ResumeLayout(false);

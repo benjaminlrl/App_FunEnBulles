@@ -56,13 +56,13 @@
             buttonRetour = new Button();
             buttonQuitter = new Button();
             buttonViderChamps = new Button();
+            label7 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridViewPersonnages).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxPersonnageImage).BeginInit();
             SuspendLayout();
             // 
             // labelNomAnglais
             // 
-            labelNomAnglais.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelNomAnglais.AutoSize = true;
             labelNomAnglais.Location = new Point(27, 202);
             labelNomAnglais.Margin = new Padding(6, 0, 6, 0);
@@ -73,7 +73,6 @@
             // 
             // textBoxNomAnglais
             // 
-            textBoxNomAnglais.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             textBoxNomAnglais.Location = new Point(240, 199);
             textBoxNomAnglais.Margin = new Padding(6, 5, 6, 5);
             textBoxNomAnglais.Name = "textBoxNomAnglais";
@@ -91,7 +90,6 @@
             // 
             // labelNom
             // 
-            labelNom.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelNom.AutoSize = true;
             labelNom.Location = new Point(27, 96);
             labelNom.Margin = new Padding(6, 0, 6, 0);
@@ -102,7 +100,6 @@
             // 
             // label2
             // 
-            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label2.AutoSize = true;
             label2.Location = new Point(27, 424);
             label2.Margin = new Padding(6, 0, 6, 0);
@@ -113,7 +110,7 @@
             // 
             // labelRecherche
             // 
-            labelRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            labelRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelRecherche.AutoSize = true;
             labelRecherche.Location = new Point(663, 469);
             labelRecherche.Margin = new Padding(6, 0, 6, 0);
@@ -124,7 +121,6 @@
             // 
             // textBoxNom
             // 
-            textBoxNom.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             textBoxNom.Location = new Point(153, 88);
             textBoxNom.Margin = new Padding(6, 5, 6, 5);
             textBoxNom.Name = "textBoxNom";
@@ -133,25 +129,26 @@
             // 
             // buttonAjouter
             // 
-            buttonAjouter.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            buttonAjouter.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonAjouter.AutoSize = true;
+            buttonAjouter.BackColor = Color.Green;
             buttonAjouter.Location = new Point(1053, 116);
             buttonAjouter.Margin = new Padding(6, 5, 6, 5);
             buttonAjouter.Name = "buttonAjouter";
-            buttonAjouter.Size = new Size(176, 49);
+            buttonAjouter.Size = new Size(176, 59);
             buttonAjouter.TabIndex = 29;
             buttonAjouter.Text = "Ajouter";
-            buttonAjouter.UseVisualStyleBackColor = true;
+            buttonAjouter.UseVisualStyleBackColor = false;
             buttonAjouter.Click += buttonAjouter_Click;
             // 
             // buttonModifier
             // 
-            buttonModifier.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            buttonModifier.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonModifier.AutoSize = true;
             buttonModifier.Location = new Point(1053, 202);
             buttonModifier.Margin = new Padding(6, 5, 6, 5);
             buttonModifier.Name = "buttonModifier";
-            buttonModifier.Size = new Size(176, 49);
+            buttonModifier.Size = new Size(176, 59);
             buttonModifier.TabIndex = 30;
             buttonModifier.Text = "Modifier";
             buttonModifier.UseVisualStyleBackColor = true;
@@ -159,15 +156,17 @@
             // 
             // buttonSupprimer
             // 
-            buttonSupprimer.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            buttonSupprimer.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonSupprimer.AutoSize = true;
-            buttonSupprimer.Location = new Point(1053, 286);
+            buttonSupprimer.BackColor = Color.Red;
+            buttonSupprimer.ForeColor = Color.White;
+            buttonSupprimer.Location = new Point(1053, 291);
             buttonSupprimer.Margin = new Padding(6, 5, 6, 5);
             buttonSupprimer.Name = "buttonSupprimer";
-            buttonSupprimer.Size = new Size(176, 49);
+            buttonSupprimer.Size = new Size(176, 64);
             buttonSupprimer.TabIndex = 31;
             buttonSupprimer.Text = "Supprimer";
-            buttonSupprimer.UseVisualStyleBackColor = true;
+            buttonSupprimer.UseVisualStyleBackColor = false;
             buttonSupprimer.Click += buttonSupprimer_Click;
             // 
             // dataGridViewPersonnages
@@ -184,13 +183,14 @@
             dataGridViewPersonnages.Name = "dataGridViewPersonnages";
             dataGridViewPersonnages.ReadOnly = true;
             dataGridViewPersonnages.RowHeadersWidth = 62;
+            dataGridViewPersonnages.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridViewPersonnages.Size = new Size(1273, 261);
             dataGridViewPersonnages.TabIndex = 20;
             dataGridViewPersonnages.CellContentClick += dataGridViewPersonnages_CellContentClick;
             // 
             // textBoxRecherche
             // 
-            textBoxRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBoxRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             textBoxRecherche.Location = new Point(874, 461);
             textBoxRecherche.Margin = new Padding(6, 5, 6, 5);
             textBoxRecherche.Name = "textBoxRecherche";
@@ -200,17 +200,16 @@
             // 
             // pictureBoxPersonnageImage
             // 
-            pictureBoxPersonnageImage.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pictureBoxPersonnageImage.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBoxPersonnageImage.BackgroundImageLayout = ImageLayout.Center;
-            pictureBoxPersonnageImage.Location = new Point(625, 88);
+            pictureBoxPersonnageImage.Location = new Point(614, 25);
             pictureBoxPersonnageImage.Name = "pictureBoxPersonnageImage";
-            pictureBoxPersonnageImage.Size = new Size(350, 245);
+            pictureBoxPersonnageImage.Size = new Size(361, 308);
             pictureBoxPersonnageImage.TabIndex = 37;
             pictureBoxPersonnageImage.TabStop = false;
             // 
             // label1
             // 
-            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Location = new Point(27, 150);
             label1.Margin = new Padding(6, 0, 6, 0);
@@ -221,7 +220,6 @@
             // 
             // textBoxInspiration
             // 
-            textBoxInspiration.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             textBoxInspiration.Location = new Point(240, 142);
             textBoxInspiration.Margin = new Padding(6, 5, 6, 5);
             textBoxInspiration.Name = "textBoxInspiration";
@@ -230,7 +228,6 @@
             // 
             // label3
             // 
-            label3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label3.AutoSize = true;
             label3.Location = new Point(27, 373);
             label3.Margin = new Padding(6, 0, 6, 0);
@@ -241,7 +238,6 @@
             // 
             // textBoxNationalite
             // 
-            textBoxNationalite.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             textBoxNationalite.Location = new Point(240, 370);
             textBoxNationalite.Margin = new Padding(6, 5, 6, 5);
             textBoxNationalite.Name = "textBoxNationalite";
@@ -250,7 +246,6 @@
             // 
             // label4
             // 
-            label4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label4.AutoSize = true;
             label4.Location = new Point(27, 316);
             label4.Margin = new Padding(6, 0, 6, 0);
@@ -261,16 +256,14 @@
             // 
             // textBoxTitre
             // 
-            textBoxTitre.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            textBoxTitre.Location = new Point(240, 313);
+            textBoxTitre.Location = new Point(153, 313);
             textBoxTitre.Margin = new Padding(6, 5, 6, 5);
             textBoxTitre.Name = "textBoxTitre";
-            textBoxTitre.Size = new Size(340, 47);
+            textBoxTitre.Size = new Size(427, 47);
             textBoxTitre.TabIndex = 43;
             // 
             // label5
             // 
-            label5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label5.AutoSize = true;
             label5.Location = new Point(27, 259);
             label5.Margin = new Padding(6, 0, 6, 0);
@@ -281,7 +274,6 @@
             // 
             // textBoxNomAllemand
             // 
-            textBoxNomAllemand.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             textBoxNomAllemand.Location = new Point(240, 256);
             textBoxNomAllemand.Margin = new Padding(6, 5, 6, 5);
             textBoxNomAllemand.Name = "textBoxNomAllemand";
@@ -290,7 +282,6 @@
             // 
             // radioButtonSexeF
             // 
-            radioButtonSexeF.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             radioButtonSexeF.AutoSize = true;
             radioButtonSexeF.Location = new Point(334, 422);
             radioButtonSexeF.Name = "radioButtonSexeF";
@@ -302,7 +293,6 @@
             // 
             // radioButtonSexeM
             // 
-            radioButtonSexeM.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             radioButtonSexeM.AutoSize = true;
             radioButtonSexeM.Location = new Point(423, 422);
             radioButtonSexeM.Name = "radioButtonSexeM";
@@ -314,7 +304,7 @@
             // 
             // label6
             // 
-            label6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label6.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label6.AutoSize = true;
             label6.Location = new Point(614, 358);
             label6.Margin = new Padding(6, 0, 6, 0);
@@ -325,7 +315,7 @@
             // 
             // textBoxImage
             // 
-            textBoxImage.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBoxImage.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             textBoxImage.Location = new Point(740, 350);
             textBoxImage.Margin = new Padding(6, 5, 6, 5);
             textBoxImage.Name = "textBoxImage";
@@ -358,7 +348,6 @@
             // 
             // buttonViderChamps
             // 
-            buttonViderChamps.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             buttonViderChamps.AutoSize = true;
             buttonViderChamps.Location = new Point(276, 469);
             buttonViderChamps.Margin = new Padding(6, 5, 6, 5);
@@ -369,11 +358,22 @@
             buttonViderChamps.UseVisualStyleBackColor = true;
             buttonViderChamps.Click += buttonViderChamps_Click;
             // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Comic Sans MS", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(153, 55);
+            label7.Name = "label7";
+            label7.Size = new Size(187, 28);
+            label7.TabIndex = 81;
+            label7.Text = "*champ obligatoire";
+            // 
             // form_PersonnageCRUD
             // 
             AutoScaleDimensions = new SizeF(17F, 39F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1272, 780);
+            Controls.Add(label7);
             Controls.Add(buttonViderChamps);
             Controls.Add(buttonQuitter);
             Controls.Add(buttonRetour);
@@ -406,7 +406,8 @@
             Margin = new Padding(5);
             Name = "form_PersonnageCRUD";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "form_PerosnnageCRUD";
+            Text = "Console d'aministration des Personnages";
+            Load += form_PersonnageCRUD_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridViewPersonnages).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxPersonnageImage).EndInit();
             ResumeLayout(false);
@@ -442,5 +443,6 @@
         private Button buttonRetour;
         private Button buttonQuitter;
         private Button buttonViderChamps;
+        private Label label7;
     }
 }

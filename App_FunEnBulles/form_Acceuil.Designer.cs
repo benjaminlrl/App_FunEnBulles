@@ -37,7 +37,7 @@
             // 
             // buttonRecherchePersonnages
             // 
-            buttonRecherchePersonnages.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            buttonRecherchePersonnages.Anchor = AnchorStyles.None;
             buttonRecherchePersonnages.BackColor = Color.Gold;
             buttonRecherchePersonnages.BackgroundImageLayout = ImageLayout.Zoom;
             buttonRecherchePersonnages.Font = new Font("Comic Sans MS", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -56,7 +56,7 @@
             // 
             // buttonConsulterAlbums
             // 
-            buttonConsulterAlbums.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            buttonConsulterAlbums.Anchor = AnchorStyles.None;
             buttonConsulterAlbums.BackColor = Color.DarkRed;
             buttonConsulterAlbums.BackgroundImageLayout = ImageLayout.Zoom;
             buttonConsulterAlbums.Font = new Font("Comic Sans MS", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -76,7 +76,7 @@
             // 
             // label1
             // 
-            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Comic Sans MS", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(287, 166);
@@ -126,7 +126,7 @@
             Margin = new Padding(5);
             Name = "form_Acceuil";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "FunEnBulles";
+            Text = "L'encyclopédie intéractive d'Astérix";
             ResumeLayout(false);
             PerformLayout();
         }

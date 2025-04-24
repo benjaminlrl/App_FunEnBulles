@@ -100,7 +100,7 @@ namespace App_FunEnBulles
                 {
                     try
                     {
-                        bddFunEnBullesPersonnageAlbumCRUD.AjouterPersonnageDansAlbum(personnageSelect,album);
+                        bddFunEnBullesPersonnageAlbumCRUD.AjouterPersonnageDansAlbum(personnageSelect, album);
                         ChargerPersonnage("");
 
                         MessageBox.Show("Personnage ajouté avec succès", "Succès", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -127,10 +127,6 @@ namespace App_FunEnBulles
             Application.Exit();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void buttonRechercheAleatoirePersonnage_Click(object sender, EventArgs e)
         {
@@ -143,22 +139,37 @@ namespace App_FunEnBulles
 
         private void dataGridViewPersonnages_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
-            // Permet le défilement avec les flèches, sans déplacer la sélection si nécessaire
-            if (e.KeyCode == Keys.Up || e.KeyCode == Keys.Down || e.KeyCode == Keys.Left || e.KeyCode == Keys.Right)
+            // Permet la navigation uniquement entre les lignes sans changer de colonne (flèches haut/bas)
+            if (e.KeyCode == Keys.Up || e.KeyCode == Keys.Down)
             {
-                e.IsInputKey = true; // Cela indique que l'événement de touche doit être traité comme un événement de mouvement de ligne ou de colonne.
+                // Cela empêche que la touche soit consommée autrement par le DataGridView.
+                e.IsInputKey = true;
             }
+
+            // Empêche la navigation avec la touche Tab (entre les colonnes), mais permet la navigation entre les lignes
+            if (e.KeyCode == Keys.Tab)
+            {
+                e.IsInputKey = true; // Cela évite le changement de colonne
+            }
+
+            // Si on appuie sur Enter, on déclenche un clic sur la cellule actuellement sélectionnée
             if (e.KeyCode == Keys.Enter)
             {
-                var currentCell = dataGridViewPersonnages.CurrentCell;
+                var currentRow = dataGridViewPersonnages.CurrentRow;
 
                 // Si une cellule est sélectionnée
-                if (currentCell != null)
+                if (currentRow != null)
                 {
+                    var currentCell = dataGridViewPersonnages.CurrentCell;
+
                     // Simuler un clic sur la cellule en déclenchant l'événement CellClick
                     dataGridViewPersonnages_CellContentClick(dataGridViewPersonnages, new DataGridViewCellEventArgs(currentCell.ColumnIndex, currentCell.RowIndex));
                 }
             }
+        }
+        private void form_RecherchePersonnageAjout_Load(object sender, EventArgs e)
+        {
+            dataGridViewPersonnages.ClearSelection();
         }
     }
 }

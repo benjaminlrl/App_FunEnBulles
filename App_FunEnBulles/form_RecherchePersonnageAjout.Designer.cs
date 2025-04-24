@@ -42,11 +42,11 @@
             buttonExit.BackColor = Color.DarkRed;
             buttonExit.Font = new Font("Comic Sans MS", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonExit.ForeColor = Color.White;
-            buttonExit.Location = new Point(1357, 12);
+            buttonExit.Location = new Point(1345, 12);
             buttonExit.Name = "buttonExit";
-            buttonExit.Size = new Size(119, 59);
+            buttonExit.Size = new Size(131, 59);
             buttonExit.TabIndex = 11;
-            buttonExit.Text = "Exit";
+            buttonExit.Text = "Quitter";
             buttonExit.UseVisualStyleBackColor = false;
             buttonExit.Click += buttonExit_Click;
             // 
@@ -63,7 +63,7 @@
             // 
             // label1
             // 
-            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Font = new Font("Comic Sans MS", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(37, 175);
@@ -88,13 +88,14 @@
             dataGridViewPersonnages.Name = "dataGridViewPersonnages";
             dataGridViewPersonnages.ReadOnly = true;
             dataGridViewPersonnages.RowHeadersWidth = 62;
+            dataGridViewPersonnages.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridViewPersonnages.Size = new Size(1517, 484);
             dataGridViewPersonnages.TabIndex = 8;
             dataGridViewPersonnages.CellClick += dataGridViewPersonnages_CellContentClick;
             // 
             // textBoxRecherche
             // 
-            textBoxRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBoxRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textBoxRecherche.BorderStyle = BorderStyle.FixedSingle;
             textBoxRecherche.Location = new Point(832, 181);
             textBoxRecherche.Margin = new Padding(5);
@@ -117,7 +118,8 @@
             Margin = new Padding(5);
             Name = "form_RecherchePersonnageAjout";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "form_RecherchePersonnageAjout";
+            Text = "Ajouter un Personnage";
+            Load += form_RecherchePersonnageAjout_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridViewPersonnages).EndInit();
             ResumeLayout(false);
             PerformLayout();

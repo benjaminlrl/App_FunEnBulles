@@ -39,7 +39,7 @@ namespace lib_FunEnBulles
         {
             connection = new SQLiteConnection("Data Source=" + nomBdD + ".sqlite;Version=3;");
             connection.Open();
-            SupprimerTable();
+            //SupprimerTable();
             CreerTable();
         }
         #endregion
@@ -47,7 +47,7 @@ namespace lib_FunEnBulles
         /// <summary>
         /// CreerTable permet de créer la table personnage si elle n'existe pas
         /// </summary>
-        private void CreerTable()
+        public void CreerTable()
         {
             string createTableQuery = "CREATE TABLE IF NOT EXISTS album " +
                 "(AlbumNum INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL," +
@@ -63,7 +63,7 @@ namespace lib_FunEnBulles
         /// <summary>
         /// RemplirBdd permets de remplir la bdd avec les données fourni
         /// </summary>
-        private void RemplirBdd()
+        public void RemplirBdd()
         {
             string checkTableVide = "SELECT COUNT(*) FROM album";
             SQLiteCommand commandCheck = new SQLiteCommand(checkTableVide, connection);
@@ -192,13 +192,29 @@ namespace lib_FunEnBulles
         /// <summary>
         /// Permet de supprimr la table album si elle existe
         /// </summary>
-        private void SupprimerTable()
+        public void SupprimerTable()
         {
             string dropTableQuery = "DROP TABLE IF EXISTS album";
             SQLiteCommand command = new SQLiteCommand(dropTableQuery, connection);
 
             command.ExecuteNonQuery();
             
+        }
+
+        /// <summary>
+        /// Genere un album aleatoire
+        /// </summary>
+        /// <param name="listeAlbums">Liste d'albums</param>
+        /// <returns>un album aleatoire</returns>
+        public Album AlbumAleatoire(List<Album> listeAlbums)
+        {
+            if (listeAlbums == null || listeAlbums.Count == 0)
+                return null;
+
+            Random random = new Random();
+            int indexAleatoire = random.Next(listeAlbums.Count);
+
+            return listeAlbums[indexAleatoire];
         }
 
         #endregion

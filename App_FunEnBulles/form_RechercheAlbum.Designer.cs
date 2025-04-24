@@ -33,6 +33,7 @@
             textBoxRecherche = new TextBox();
             buttonMenu = new Button();
             buttonExit = new Button();
+            buttonRechercheAleatoireAlbum = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridViewAlbums).BeginInit();
             SuspendLayout();
             // 
@@ -44,17 +45,19 @@
             dataGridViewAlbums.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewAlbums.BackgroundColor = Color.White;
             dataGridViewAlbums.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAlbums.Location = new Point(0, 289);
+            dataGridViewAlbums.Location = new Point(0, 368);
             dataGridViewAlbums.Name = "dataGridViewAlbums";
+            dataGridViewAlbums.ReadOnly = true;
             dataGridViewAlbums.RowHeadersWidth = 62;
-            dataGridViewAlbums.Size = new Size(1553, 617);
+            dataGridViewAlbums.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridViewAlbums.Size = new Size(1553, 538);
             dataGridViewAlbums.TabIndex = 0;
             dataGridViewAlbums.CellClick += dataGridViewAlbums_CellClick;
             dataGridViewAlbums.PreviewKeyDown += dataGridViewAlbums_PreviewKeyDown;
             // 
             // label1
             // 
-            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Font = new Font("Comic Sans MS", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(263, 152);
@@ -65,7 +68,7 @@
             // 
             // textBoxRecherche
             // 
-            textBoxRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBoxRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textBoxRecherche.BorderStyle = BorderStyle.FixedSingle;
             textBoxRecherche.Location = new Point(774, 159);
             textBoxRecherche.Margin = new Padding(5);
@@ -99,11 +102,25 @@
             buttonExit.UseVisualStyleBackColor = false;
             buttonExit.Click += buttonExit_Click;
             // 
+            // buttonRechercheAleatoireAlbum
+            // 
+            buttonRechercheAleatoireAlbum.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            buttonRechercheAleatoireAlbum.BackColor = Color.Gold;
+            buttonRechercheAleatoireAlbum.Font = new Font("Comic Sans MS", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonRechercheAleatoireAlbum.Location = new Point(524, 252);
+            buttonRechercheAleatoireAlbum.Name = "buttonRechercheAleatoireAlbum";
+            buttonRechercheAleatoireAlbum.Size = new Size(558, 78);
+            buttonRechercheAleatoireAlbum.TabIndex = 13;
+            buttonRechercheAleatoireAlbum.Text = "Découvrir un album";
+            buttonRechercheAleatoireAlbum.UseVisualStyleBackColor = false;
+            buttonRechercheAleatoireAlbum.Click += buttonRechercheAleatoireAlbum_Click;
+            // 
             // form_RechercheAlbum
             // 
             AutoScaleDimensions = new SizeF(17F, 39F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1553, 902);
+            Controls.Add(buttonRechercheAleatoireAlbum);
             Controls.Add(buttonExit);
             Controls.Add(buttonMenu);
             Controls.Add(textBoxRecherche);
@@ -113,7 +130,8 @@
             Margin = new Padding(5);
             Name = "form_RechercheAlbum";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "form_RechercheAlbum";
+            Text = "Encyclopédie des Albums";
+            Load += form_RechercheAlbum_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridViewAlbums).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -126,5 +144,6 @@
         private TextBox textBoxRecherche;
         private Button buttonMenu;
         private Button buttonExit;
+        private Button buttonRechercheAleatoireAlbum;
     }
 }

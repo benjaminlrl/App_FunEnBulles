@@ -286,5 +286,10 @@ namespace App_FunEnBulles
             personnageAlbumCRUD.FormClosed += (s, args) => this.Close();
             personnageAlbumCRUD.Show();
         }
+
+        private void form_AlbumCRUD_Load(object sender, EventArgs e)
+        {
+            dataGridViewAlbums.ClearSelection();
+        }
     }
 }

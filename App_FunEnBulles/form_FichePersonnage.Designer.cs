@@ -91,7 +91,7 @@
             // labelSexe
             // 
             labelSexe.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold);
-            labelSexe.Location = new Point(493, 316);
+            labelSexe.Location = new Point(539, 338);
             labelSexe.Name = "labelSexe";
             labelSexe.Size = new Size(142, 37);
             labelSexe.TabIndex = 15;
@@ -113,7 +113,7 @@
             buttonFermer.Name = "buttonFermer";
             buttonFermer.Size = new Size(133, 59);
             buttonFermer.TabIndex = 29;
-            buttonFermer.Text = "Fermer";
+            buttonFermer.Text = "Retour";
             buttonFermer.UseVisualStyleBackColor = false;
             buttonFermer.Click += buttonFermer_Click;
             // 
@@ -123,11 +123,11 @@
             buttonExit.BackColor = Color.DarkRed;
             buttonExit.Font = new Font("Comic Sans MS", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonExit.ForeColor = Color.White;
-            buttonExit.Location = new Point(562, 12);
+            buttonExit.Location = new Point(539, 12);
             buttonExit.Name = "buttonExit";
-            buttonExit.Size = new Size(119, 59);
+            buttonExit.Size = new Size(142, 59);
             buttonExit.TabIndex = 28;
-            buttonExit.Text = "Exit";
+            buttonExit.Text = "Quitter";
             buttonExit.UseVisualStyleBackColor = false;
             buttonExit.Click += buttonExit_Click;
             // 
@@ -149,10 +149,11 @@
             // 
             // labelTitre
             // 
+            labelTitre.AutoEllipsis = true;
             labelTitre.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold);
-            labelTitre.Location = new Point(493, 265);
+            labelTitre.Location = new Point(455, 205);
             labelTitre.Name = "labelTitre";
-            labelTitre.Size = new Size(142, 37);
+            labelTitre.Size = new Size(237, 121);
             labelTitre.TabIndex = 31;
             labelTitre.Text = "Titre : ";
             // 
@@ -161,6 +162,7 @@
             AutoScaleDimensions = new SizeF(17F, 39F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(693, 716);
+            ControlBox = false;
             Controls.Add(labelTitre);
             Controls.Add(dataGridViewListeAlbums);
             Controls.Add(buttonFermer);
@@ -177,7 +179,8 @@
             Margin = new Padding(5);
             Name = "form_FichePersonnage";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "form_FichePersonnage";
+            Text = "Fiche Personnage";
+            Load += form_FichePersonnage_Load;
             PreviewKeyDown += form_FichePersonnage_PreviewKeyDown;
             ((System.ComponentModel.ISupportInitialize)pictureBoxPersonnage).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewListeAlbums).EndInit();

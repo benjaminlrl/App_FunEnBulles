@@ -78,7 +78,7 @@
             // 
             // textBoxRecherche
             // 
-            textBoxRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBoxRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             textBoxRecherche.Location = new Point(874, 402);
             textBoxRecherche.Margin = new Padding(6, 5, 6, 5);
             textBoxRecherche.Name = "textBoxRecherche";
@@ -88,7 +88,7 @@
             // 
             // labelRecherche
             // 
-            labelRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            labelRecherche.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelRecherche.AutoSize = true;
             labelRecherche.Location = new Point(695, 405);
             labelRecherche.Margin = new Padding(6, 0, 6, 0);
@@ -99,7 +99,7 @@
             // 
             // buttonAjouter
             // 
-            buttonAjouter.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            buttonAjouter.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             buttonAjouter.AutoSize = true;
             buttonAjouter.Location = new Point(360, 311);
             buttonAjouter.Margin = new Padding(6, 5, 6, 5);
@@ -112,7 +112,7 @@
             // 
             // buttonSupprimer
             // 
-            buttonSupprimer.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            buttonSupprimer.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonSupprimer.AutoSize = true;
             buttonSupprimer.Location = new Point(972, 311);
             buttonSupprimer.Margin = new Padding(6, 5, 6, 5);
@@ -137,13 +137,13 @@
             dataGridViewPersonnages.Name = "dataGridViewPersonnages";
             dataGridViewPersonnages.ReadOnly = true;
             dataGridViewPersonnages.RowHeadersWidth = 62;
+            dataGridViewPersonnages.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridViewPersonnages.Size = new Size(1273, 339);
             dataGridViewPersonnages.TabIndex = 80;
             dataGridViewPersonnages.CellClick += dataGridViewPersonnages_CellClick;
             // 
             // labelisbn
             // 
-            labelisbn.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             labelisbn.AutoSize = true;
             labelisbn.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold);
             labelisbn.Location = new Point(205, 160);
@@ -154,7 +154,6 @@
             // 
             // labelAnnee
             // 
-            labelAnnee.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             labelAnnee.AutoSize = true;
             labelAnnee.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold);
             labelAnnee.Location = new Point(205, 195);
@@ -165,7 +164,6 @@
             // 
             // labelEdition
             // 
-            labelEdition.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             labelEdition.AutoSize = true;
             labelEdition.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold);
             labelEdition.Location = new Point(205, 123);
@@ -176,7 +174,6 @@
             // 
             // labelTitre
             // 
-            labelTitre.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             labelTitre.AutoSize = true;
             labelTitre.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold);
             labelTitre.Location = new Point(205, 86);
@@ -187,7 +184,6 @@
             // 
             // label50
             // 
-            label50.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label50.AutoSize = true;
             label50.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold);
             label50.Location = new Point(12, 402);
@@ -198,7 +194,6 @@
             // 
             // pictureBoxAlbum
             // 
-            pictureBoxAlbum.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pictureBoxAlbum.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBoxAlbum.Location = new Point(12, 86);
             pictureBoxAlbum.Name = "pictureBoxAlbum";
@@ -209,7 +204,7 @@
             // 
             // labelSexe
             // 
-            labelSexe.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            labelSexe.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelSexe.AutoSize = true;
             labelSexe.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold);
             labelSexe.Location = new Point(859, 160);
@@ -220,7 +215,7 @@
             // 
             // labelTitrePersonnage
             // 
-            labelTitrePersonnage.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            labelTitrePersonnage.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelTitrePersonnage.AutoSize = true;
             labelTitrePersonnage.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold);
             labelTitrePersonnage.Location = new Point(859, 195);
@@ -231,7 +226,7 @@
             // 
             // labelinspiration
             // 
-            labelinspiration.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            labelinspiration.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelinspiration.AutoSize = true;
             labelinspiration.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold);
             labelinspiration.Location = new Point(859, 123);
@@ -242,7 +237,7 @@
             // 
             // labelNomPersonnage
             // 
-            labelNomPersonnage.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            labelNomPersonnage.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelNomPersonnage.AutoSize = true;
             labelNomPersonnage.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold);
             labelNomPersonnage.Location = new Point(859, 86);
@@ -253,7 +248,7 @@
             // 
             // pictureBoxPersonnage
             // 
-            pictureBoxPersonnage.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pictureBoxPersonnage.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBoxPersonnage.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBoxPersonnage.Location = new Point(666, 86);
             pictureBoxPersonnage.Name = "pictureBoxPersonnage";
@@ -264,7 +259,7 @@
             // 
             // labelNationalite
             // 
-            labelNationalite.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            labelNationalite.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelNationalite.AutoSize = true;
             labelNationalite.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold);
             labelNationalite.Location = new Point(859, 230);
@@ -301,7 +296,8 @@
             Margin = new Padding(5);
             Name = "form_PersonnageAlbumCRUD";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "form_PerosnnagesAlbumCRUD";
+            Text = "Console d'aministration des Personnages dans les Albums";
+            Load += form_PersonnageAlbumCRUD_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridViewPersonnages).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxAlbum).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxPersonnage).EndInit();

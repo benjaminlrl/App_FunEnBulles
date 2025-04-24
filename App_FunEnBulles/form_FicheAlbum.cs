@@ -104,5 +104,10 @@ namespace App_FunEnBulles
                 this.Hide();
             }
         }
+
+        private void form_FicheAlbum_Load(object sender, EventArgs e)
+        {
+            dataGridViewListePersonnagesAlbum.ClearSelection();
+        }
     }
 }

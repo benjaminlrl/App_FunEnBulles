@@ -28,6 +28,7 @@ namespace lib_FunEnBulles
         {
             connection = new SQLiteConnection("Data Source=" + nomBdD + ".sqlite;Version=3;");
             connection.Open();
+            //SupprimerTable();
             CreerTable();
         }
         #endregion
@@ -35,7 +36,7 @@ namespace lib_FunEnBulles
         /// <summary>
         /// CreerTable permet de créer la table personnage si elle n'existe pas
         /// </summary>
-        private void CreerTable()
+        public void CreerTable()
         {
             string createTableQuery = "CREATE TABLE IF NOT EXISTS personnage" +
                 "(PersonnageNum INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL," +
@@ -54,7 +55,7 @@ namespace lib_FunEnBulles
         /// <summary>
         /// RemplirBdd permets de remplir la bdd avec les données fourni
         /// </summary>
-        private void RemplirBdd()
+        public void RemplirBdd()
         {
             string checkTableVide = "SELECT COUNT(*) FROM personnage";
             SQLiteCommand commandCheck = new SQLiteCommand(checkTableVide, connection);
@@ -219,7 +220,18 @@ namespace lib_FunEnBulles
             int indexAleatoire = random.Next(listePersonnages.Count);
 
             return listePersonnages[indexAleatoire];
-            #endregion
-        }        
+            
+        }
+        /// <summary>
+        /// Permet de supprimr la table personnage si elle existe
+        /// </summary>
+        public void SupprimerTable()
+        {
+            string dropTableQuery = "DROP TABLE IF EXISTS personnage";
+            SQLiteCommand command = new SQLiteCommand(dropTableQuery, connection);
+
+            command.ExecuteNonQuery();
+        }
+        #endregion
     }
 }

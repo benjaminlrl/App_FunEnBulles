@@ -52,7 +52,9 @@
             dataGridViewListePersonnagesAlbum.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewListePersonnagesAlbum.Location = new Point(0, 399);
             dataGridViewListePersonnagesAlbum.Name = "dataGridViewListePersonnagesAlbum";
+            dataGridViewListePersonnagesAlbum.ReadOnly = true;
             dataGridViewListePersonnagesAlbum.RowHeadersWidth = 62;
+            dataGridViewListePersonnagesAlbum.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridViewListePersonnagesAlbum.Size = new Size(692, 323);
             dataGridViewListePersonnagesAlbum.TabIndex = 25;
             // 
@@ -128,11 +130,11 @@
             buttonExit.BackColor = Color.DarkRed;
             buttonExit.Font = new Font("Comic Sans MS", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonExit.ForeColor = Color.White;
-            buttonExit.Location = new Point(562, 12);
+            buttonExit.Location = new Point(532, 12);
             buttonExit.Name = "buttonExit";
-            buttonExit.Size = new Size(119, 59);
+            buttonExit.Size = new Size(149, 59);
             buttonExit.TabIndex = 26;
-            buttonExit.Text = "Exit";
+            buttonExit.Text = "Quitter";
             buttonExit.UseVisualStyleBackColor = false;
             buttonExit.Click += buttonExit_Click;
             // 
@@ -143,7 +145,7 @@
             buttonFermer.Name = "buttonFermer";
             buttonFermer.Size = new Size(133, 59);
             buttonFermer.TabIndex = 30;
-            buttonFermer.Text = "Fermer";
+            buttonFermer.Text = "Retour";
             buttonFermer.UseVisualStyleBackColor = false;
             buttonFermer.Click += buttonFermer_Click;
             // 
@@ -152,6 +154,7 @@
             AutoScaleDimensions = new SizeF(17F, 39F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(693, 716);
+            ControlBox = false;
             Controls.Add(buttonFermer);
             Controls.Add(buttonExit);
             Controls.Add(dataGridViewListePersonnagesAlbum);
@@ -166,7 +169,8 @@
             Margin = new Padding(5);
             Name = "form_FicheAlbum";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "form_ficheAlbum";
+            Text = "Fiche Album";
+            Load += form_FicheAlbum_Load;
             PreviewKeyDown += form_FicheAlbum_PreviewKeyDown;
             ((System.ComponentModel.ISupportInitialize)dataGridViewListePersonnagesAlbum).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxAlbum).EndInit();
