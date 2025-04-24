@@ -64,7 +64,7 @@ Utilise la fonction de recherche pour filtrer les personnages selon différents 
 
 ## 📸 Captures d'écran
 ### Acceuil
-![Acceuil](images/capturesdecran/accueil.png)
+![Acceuil](images/capturesdecran/acceuil.png)
 
 ### Recherche d'album
 ![recherche d'album](images/capturesdecran/rechercheAlbum.png)
