@@ -104,7 +104,7 @@
             // 
             buttonParametre.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonParametre.BackgroundImage = Properties.Resources.parametre;
-            buttonParametre.BackgroundImageLayout = ImageLayout.Center;
+            buttonParametre.BackgroundImageLayout = ImageLayout.Stretch;
             buttonParametre.Location = new Point(1155, 12);
             buttonParametre.Name = "buttonParametre";
             buttonParametre.Size = new Size(67, 63);
