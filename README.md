@@ -94,8 +94,8 @@ Utilise la fonction de recherche pour filtrer les personnages selon différents 
 La première version de l'application Astérix est maintenant disponible en téléchargement :
 ### Version portable windows :
 - [📥 Télécharger la version 1.0.0 pour win-x64](https://github.com/benjaminlrl/App_FunEnBulles/releases/download/v1.0.0/FunEnBulles_1.0.0_win-x64.zip)
-### Version zip nécéssitant le framework .NET8
-- [📥 Télécharger la version 1.0.0 sans framework](https://github.com/benjaminlrl/App_FunEnBulles/releases/download/v1.0.0/FunEnBulles_1.0.0.zip)
+### Version open source
+- [📥 Télécharger la version 1.0.0 open source](https://github.com/benjaminlrl/App_FunEnBulles/releases/download/v1.0.0/FunEnBulles_1.0.0.zip)
 
 ## 🤝 Contribuer
 Les contributions sont les bienvenues ! N'hésite pas à forker le projet et à proposer des améliorations via des pull requests.
