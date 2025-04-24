@@ -73,13 +73,13 @@ Utilise la fonction de recherche pour filtrer les personnages selon différents 
 ![Recherche de personnage](images/capturesdecran/recherchePersonnage.png)
 
 ###  Fiche détaillé du personnage sélectionné
-![Interface principale](images/capturesdecran/detailfichePersonnage.png)
+![Fiche détaillé du personnage sélectionné](images/capturesdecran/detailfichePersonnage.png)
 
 ### Panneau de controle
 ![Panneau de controle](images/capturesdecran/panneaudecontrole.png)
 
 ### Panneau de controle des personnages
-![Panneau de controle des personnages](images/capturesdecran/perosnnageCRUD.png)
+![Panneau de controle des personnages](images/capturesdecran/personnageCRUD.png)
 
 ### Panneau de controle des albums
 ![Panneau de controle des personnages](images/capturesdecran/AlbumCRUD.png)
