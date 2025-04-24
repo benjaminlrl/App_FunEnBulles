@@ -60,7 +60,32 @@ Utilise l'interface pour parcourir les albums et les personnages.
 Utilise la fonction de recherche pour filtrer les personnages selon différents critères.
 
 ## 📸 Captures d'écran
-Ajoute ici des captures d'écran de l'application pour illustrer l'interface et les fonctionnalités.
+### Acceuil
+![Acceuil](images/capturesdecran/accueil.png)
+
+### Recherche d'album
+![recherche d'album](images/capturesdecran/rechercheAlbum.png)
+
+### Fiche détaillé de l'album sélectionné
+![Fiche détaillé de l'album](images/capturesdecran/detailficheAlbum.png)
+
+### Recherche de personnages
+![Recherche de personnage](images/capturesdecran/recherchePersonnage.png)
+
+###  Fiche détaillé du personnage sélectionné
+![Interface principale](images/capturesdecran/detailfichePersonnage.png)
+
+### Panneau de controle
+![Panneau de controle](images/capturesdecran/panneaudecontrole.png)
+
+### Panneau de controle des personnages
+![Panneau de controle des personnages](images/capturesdecran/perosnnageCRUD.png)
+
+### Panneau de controle des albums
+![Panneau de controle des personnages](images/capturesdecran/AlbumCRUD.png)
+
+### Panneau de controle des personnages présent dans les albums
+![Panneau de controle des personnages présent dans les albums](images/capturesdecran/perosnnageAlbumCRUD.png)
 
 ## 🤝 Contribuer
 Les contributions sont les bienvenues ! N'hésite pas à forker le projet et à proposer des améliorations via des pull requests.
