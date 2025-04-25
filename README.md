@@ -30,8 +30,6 @@ lib_FunEnBulles : Bibliothèque personnalisée pour l'accès aux données.
 Cloner le dépôt :
 
 bash
-Copier
-Modifier
 git clone https://github.com/benjaminlrl/App_FunEnBulles.git
 Ouvrir le projet :
 
@@ -44,8 +42,6 @@ Dans Visual Studio, va dans Outils > Gestionnaire de packages NuGet > Console du
 Exécute la commande suivante :
 
 powershell
-Copier
-Modifier
 Update-Package -reinstall
 Configurer la base de données :
 
